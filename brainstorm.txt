@@ -1,0 +1,16 @@
+project-box {
+
+    .project-name
+    .project-status
+    .delete-button
+
+    [need to get auto foused when created and the delete button to be apper when 
+    focused]
+    [
+        utility bar where the three dots and the arrow for full view 
+    ]    
+    [
+     re-edit to edit the name of the projecet again in thr dasboard
+      need to double click
+    ]
+    }
