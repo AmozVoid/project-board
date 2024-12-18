@@ -1,12 +1,10 @@
-function createNewProject(){
+ export function createNewProject(){
     const button = document.querySelector('.add-button');
     button.addEventListener('click' ,createProjectBox
     );
 }
 
-createNewProject();
-
-function createProjectBox(){
+export function createProjectBox(){
     // a box is created 
     const newDiv = document.createElement('div');
     newDiv.classList.add('project-box');
@@ -85,7 +83,7 @@ function createProjectBox(){
 
     // the list div is called and the new div is appendend 
     const list = document.querySelector('.list');
-    list.appendChild(newDiv);
+    list.prepend(newDiv);
 }
 
 
