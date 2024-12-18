@@ -1,4 +1,4 @@
-import { createNewProject } from './project-box.js';
+import { createNewProject } from './components/project-box.js';
 
 document.addEventListener('DOMContentLoaded', () =>{
     createNewProject();
